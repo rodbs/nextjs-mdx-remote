@@ -22,7 +22,7 @@ export async function getStaticProps() {
 title: Test
 ---
 
-Some **mdx** text, with a component <Test name=${title}/>
+Some **mdx** text, with a component <Test name={title}/>
 `;
   const { content, data } = matter(source);
   const mdxSource = await renderToString(content, components, data);
