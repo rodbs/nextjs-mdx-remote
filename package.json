@@ -1,5 +1,5 @@
 {
-  "name": "nextjs",
+  "name": "nextjs-tocbot",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,10 +8,25 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/core": "^1.0.0-rc.7",
+    "@chakra-ui/icons": "^1.0.0-rc.7",
+    "@chakra-ui/theme": "^1.0.0-rc.7",
+    "framer-motion": "^2.9.4",
+    "globby": "^11.0.1",
     "gray-matter": "^4.0.2",
-    "next": "^9.3.3",
-    "next-mdx-remote": "^0.6.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "js-cookie": "^2.2.1",
+    "markdown-to-jsx": "^7.0.1",
+    "next": "^10.0.0",
+    "next-mdx-remote": "^1.0.0",
+    "next-seo": "^4.14.0",
+    "prettier": "^2.1.2",
+    "query-string": "^6.13.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^3.11.0",
+    "react-typed": "^1.2.0",
+    "shortid": "^2.2.15",
+    "swr": "^0.3.6",
+    "tocbot": "^4.12.0"
   }
 }
